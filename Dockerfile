@@ -4,7 +4,7 @@ FROM golang:1.13-alpine as builder
 RUN apk add --no-cache \
     wget \
     make \
-    git \
+    git
 
 RUN mkdir /hw_docker
 
