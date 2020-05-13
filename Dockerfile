@@ -10,7 +10,7 @@ RUN mkdir /hw_docker
 
 WORKDIR /hw_docker
 
-COPY * .
+COPY . .
 
 RUN go mod download
 
